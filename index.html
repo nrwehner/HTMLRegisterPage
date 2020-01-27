@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- big chunks: nav bar, form, box, links, buttons 
+        (2 different kinds - button in the form and anchor tags in the nav since they do different things)-->
+</head>
+<!-- Josh put the body formats in the css file (what I did is called "in-line" styling - not advised) - body has a default margin that needs to be reset to zero to get the top
+element to be snug with the top-->
+<body  style="background-color: aquamarine;">
+    <!-- moving Register and Login to the right - text-align: right; - text-align takes anything inside the element and
+    moves it, so apply it one level up from what you want moved -->
+    <nav class="navclass">
+        <!-- anchor tags was correct - added a div around the 2 anchors to group them - holding alt can move a line up and down
+        -->
+        <div>
+            <a href="c://ElevenFifty Projects/Gold Badge/Register Page/Register.html" target="blank1">Register</a>
+            <a href="c://ElevenFifty Projects/Gold Badge/Register Page/AboutUs.html" target="blank">Login</a>
+        </div>
+    </nav>
+    <!-- Josh used a section tag next to create the white box, then a heading, then the form tag alone 
+        with the input tags and button tag (they came in  horizontal, but can be styled later) - added a method to the form
+    I didn't do the links part but Josh added a div below the form and added image links (anchor tags with img tags embedded)
+    Josh used ids for navbar and signup form instead of classes - he used a class for navlinks -->
+        <form method="POST">
+        <div class="divclass">
+                <h1>Sign Up</h1>
+                <input type="email" placeholder=" email">
+                <br>
+                <input type="text" placeholder=" username">
+                <br>
+                <input type="password" placeholder=" password"></Label>
+                <br>
+                <input type="password" placeholder=" re-enter password">
+                <br>
+                <button type="submit">Submit</button>    
+        </div>
+        <div>
+            <a href="image">
+                <img src="location" alt="somename">
+            </a>
+        </div>
+    </form>
+</body>
+</html>
+<!-- git stuff: ctrl + ` brings up the terminal window down below "git init" initializes the git folder -->
